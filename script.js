@@ -1,5 +1,5 @@
 exports.locate = function(load) {
-  return window.location.protocol + '//' + load.name;
+  return System.locate(load);
 };
 
 exports.fetch = function(load) {
