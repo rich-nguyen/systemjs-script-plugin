@@ -1,7 +1,3 @@
-exports.locate = function(load) {
-  return System.locate(load);
-};
-
 exports.fetch = function(load) {
   return new Promise(function(resolve, reject) {
     var head = document.getElementsByTagName('head')[0];
